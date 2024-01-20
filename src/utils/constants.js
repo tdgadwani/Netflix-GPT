@@ -5,17 +5,17 @@ export const BG_IMG="https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48
 
 export const USER_AVATAR="https://okneeraj.github.io/netflix-gpt//avatar-red.jpeg";
 
-export const API_KEY = "b648c4ce52df979039762eb704aad043";
+export const API_KEY = "TMDB_API_KEY";
 
 export const API_READ_ACCESS_TOKEN =
-  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNjQ4YzRjZTUyZGY5NzkwMzk3NjJlYjcwNGFhZDA0MyIsInN1YiI6IjY1OTdkNTgwNzI2ZmIxMDZhOGFiMjg2MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.813TI83nMOnRG_DyBhw3XqdzyAN31JGW0GyVNzxLwh4";
+  "TMDB_TOKEN";
 
 export const OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
     Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNjQ4YzRjZTUyZGY5NzkwMzk3NjJlYjcwNGFhZDA0MyIsInN1YiI6IjY1OTdkNTgwNzI2ZmIxMDZhOGFiMjg2MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.813TI83nMOnRG_DyBhw3XqdzyAN31JGW0GyVNzxLwh4",
+      "Bearer "+ API_READ_ACCESS_TOKEN,
   },
 };
 
@@ -32,8 +32,8 @@ export const YOUTUBE_VIDEO_URL = "https://www.youtube.com/embed/";
 
 export const IMG_CDN_URL="https://image.tmdb.org/t/p/w500/";
 
-export const OPENAI_KEY = "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";
-// export const OPENAI_KEY = "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";
+export const OPENAI_KEY = "";
+// export const OPENAI_KEY = "";
 
 export const SUPPORTED_LANGUAGE=[
   {
